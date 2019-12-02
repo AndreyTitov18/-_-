@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+ <html> 
+  <head> 
+  <meta charset="UTF-8"> 
+  <style> 
+* {box-sizing: border-box;}
+.fixed-nav-bar { position: fixed;
+ top: 0;
+   left: 0; 
+  z-index: 9999; 
+  width: 100%; 
+  height: 50px;   
+background-color: #00a087; }
+form {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+* {margin:0px ; 
+  padding: 0px; 
+  width:1720; 
+  background-color: rgb(191,191,190); 
+  
+  font-size: 12px; 
+  text-align: center;} 
+pre{outline-style: solid; 
+ outline-color: black; 
+ outline-width: 1px;} 
+ #menu 
+  {background-color:rgb(255,191,190); 
+  text-align: center; 
+  width:1400px; height: 200px; 
+  display:inline-block;} 
+#sign_in{background-color:rgb(251,100,150); 
+  text-align: center; 
+  width:320px; height: 200px; 
+  display:inline-block;}
+ #panel 
+  {background-color:rgb(191,255,255); 
+  height: 780px; width:500px; 
+  display:inline-block;} 
+ #content 
+  {background-color: white; 
+  width:1220px; height: 780px; 
+  display:inline-block;} 
+ #inform
+  {background-color:rgb(191,255,190); 
+  height: 100px; width:1720px; 
+  display: inline-block;} 
+ </style> 
+ </head> 
+     <body> 
+  <div> <pre id="menu"> 
+           Меню и поисковая строка.
+          <form>
+  <input type="text" placeholder="Искать здесь...">
+  <button type="submit"></button>
+          </form> </pre>
+        <pre id="sign_in"> Авторизован.
+Титов Андрей
+ИУ4-11Б </pre>
+  </div> 
+  <div> <div class="fixed-nav-bar">   <!-- Содержимое навигационной панели --> </div> <pre id="panel"> 
+           Панель переходов. </pre> 
+        <pre id="content"> 
+           Статьи и комментарии. 
+  </pre>
+  </div> 
+  <div> <pre id="inform"> 
+           Инофрмация по сайту. его описание и контакты.</pre>
+  </div> 
+    </body> 
+ </html>
