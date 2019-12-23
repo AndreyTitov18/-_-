@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style> 
+body{text-align:center;background:url(INF_E.jpg);color:orange;}
+.three{margin-left:1100px;width:40%;margin-top:300px;
+border-collapse:collapse;border: 3px solid orange; color:orange;
+font-size:25px;
+background-color:grey;text-align:center;}
+
+</style>
+</head>
+
+<body>
+<div class="three">
+<p>Контакты</p>
+<pre>
+Адрес нашего офиса :г.о Подольск
+                    Улица Скобелевская
+                    Дом 22
+                    Корпус Г
+                    Этаж 7
+                    Офис 50.
+Телефоны: +7-999-858-48-58;(Екатерина)
+          +7-926-758-45-55;(Олег)
+
+Источники: wikipedia/com.
+</pre>
+
+
+</div>
+
+</body>
+
+
+
+
+
+</html>
