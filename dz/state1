@@ -1,0 +1,10 @@
+<?php
+  
+  $name = $_POST["name"];
+  $states = $_POST["states"];
+  $page_id=$_POST["page_id"];
+
+  $mysqli = new mysqli("localhost", "root", "", "users");
+  $mysqli->query("INSERT INTO `state` (`name`, `states`, `page_id`) VALUES ('$name', '$states','$page_id' )");
+  header("Location:information.php");
+?>
