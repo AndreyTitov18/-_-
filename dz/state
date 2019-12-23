@@ -1,0 +1,28 @@
+<?php
+ error_reporting(0);
+    session_start();
+?>
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Document</title> 
+<style>
+*{text-align:center;}
+       body{background: url(INF_C.jpg);text-align:center;color:blue;font-size:20px;}
+</style>
+</head> 
+
+<body>
+<h1>Добавление статьи.</h1> 
+<form action="state1.php" method="Post">
+<p>Название:<input type="text" name="name"/></p>
+
+<input type="hidden" name="page_id" value="150">
+<textarea name="states" cols="60" rows="5"  required></textarea>
+   <input type="submit" value="Подтвердить">
+</form>
+
+</body>
+ 
+</html>
