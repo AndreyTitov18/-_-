@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style> *{text-align:center;}
+       body{background: url(INF_F.jpg);text-align:center;width:1920;height:1080;}
+
+</style>
+</head>
+<body>
+<h1 style="color:orange;">Каталог</h1>
+
+<div style="display:inline-block;font-size:25px;color:blue;">
+<img src="INF_1.jpg" alt="Танк 1"style="width:420px;height:300px;" >
+    <p>Танк 1. Чугунная модель.</p>
+</div>
+<div style="display:inline-block;font-size:25px;color:blue;">
+<img src="INF_2.jpg" alt="Танк 1" style="width:420px;height:300px;">
+    <p>Танк 2. Чугунная модель.</p>
+</div >
+<div style="display:inline-block;font-size:25px;color:blue;"> 
+<img src="INF_3.jpg" alt="Танк 1" style="width:420px;height:300px;">
+    <p>Танк 3. Чугунная модель.</p>
+</div>
+<div style="display:inline-block;font-size:25px;color:blue;">
+<img src="INF_4.jpg" alt="Танк 1" style="width:420px;height:300px;">
+    <p>Танк 4. Чугунная модель.</p>
+</div>
+<div style="display:block;">
+<div style="font-size:25px;color:orange;">
+<h3>Panzerkampfwagen VI Ausf.H1 (Танк 1)</h3>
+<pre>Panzerkampfwagen VI Ausf. H1, «Тигр» — немецкий
+тяжёлый танк времён Второй мировой войны,
+прототипом которого являлся танк VK4501 (H),
+разработанный в 1942 году фирмой «Хеншель» 
+под руководством Эрвина Адерса. </pre>
+</div>
+<div style="font-size:25px;color:orange;">
+<h3>КВ-1 (Танк 2)</h3>
+<pre>КВ-1 (названный в честь Климента Ворошилова,
+как и остальные танки серии КВ) — советский тяжёлый
+танк времён Великой Отечественной войны.Выпускался 
+с августа 1939 года по август 1942 года. Принимал участие
+в войне с Финляндией и Великой Отечественной войне.</pre>
+</div>
+<div style="font-size:25px;color:orange;">
+<h3>M4 «Шерман» (Танк 3)</h3>
+<pre>4 «Шерман» (англ. M4 Sherman) — основной американский
+средний танкпериода Второй мировой войны. Широко использовался
+в американской армии на всех местах боевых действий,
+а также в больших количествах поставлялся союзникам
+(в первую очередь Великобритании и СССР) по программе ленд-лиза.</pre>
+</div>
+<div style="font-size:25px;color:orange;">
+<h3>T-34-85 (Танк 4)</h3>
+<pre>T-34-85 — войсковое обозначение последней модификации 
+советского среднего танка Т-34 с орудием калибра 85-мм.
+Принят на вооружение РККА Постановлением ГКО № 5021 от 23 
+января 1944 года. Спроектирован на базе серийного танка Т-34
+образца 1942 года.</pre>
+</div>
+</div>
+<h1 style="color:blue;">Для оформления заказа сувенира позвоните на наш официальный номер, чтобы обговорить условия вашего заказа.
+тел.(+74957-54-56-52)</h1>
+</body>
+</html>
